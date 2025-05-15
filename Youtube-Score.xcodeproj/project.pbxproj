@@ -117,6 +117,7 @@
 				Resources/popup.css,
 				Resources/popup.html,
 				Resources/popup.js,
+				Resources/score.js,
 				SafariWebExtensionHandler.swift,
 			);
 			target = 1738427C2DD67D5D000E99F7 /* Youtube-Score Extension (iOS) */;
@@ -132,6 +133,7 @@
 				Resources/popup.css,
 				Resources/popup.html,
 				Resources/popup.js,
+				Resources/score.js,
 				SafariWebExtensionHandler.swift,
 			);
 			target = 173842862DD67D5D000E99F7 /* Youtube-Score Extension (macOS) */;
