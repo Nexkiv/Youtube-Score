@@ -20,12 +20,14 @@ if (window.top === window) {
     let scoreElement = document.createElement("button-view-model");
     scoreElement.setAttribute("style", "padding: 7px; min-width: 100px;");
     scoreElement.appendChild(scoreDiv);
+    
+    let referenceNode
 
 //    document.addEventListener("DOMContentLoaded", function(event) {
-//        let referenceNode = document.getElementById("owner");
+//        referenceNode = document.getElementById("owner");
 //        referenceNode.appendChild(scoreElement);
 //    });
     
-    let referenceNode = document.getElementById("owner");
+    referenceNode = document.getElementById("owner");
     referenceNode.appendChild(scoreElement);
 }

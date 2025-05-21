@@ -13,9 +13,11 @@
 			<dict>
 				<key>Script</key>
 				<string>score.js</string>
+				<key>injectionTime</key>
+				<string>documentStart</string>
 				<key>Allowed URL Patterns</key>
 				<array>
-					<string>https://*.youtube.com/*</string>
+					<string>*://www.youtube.com/watch*</string>
 				</array>
 			</dict>
 		</array>
@@ -25,7 +27,7 @@
 			<string>Some</string>
 			<key>Allowed Domains</key>
 			<array>
-				<string>youtube.com</string>
+				<string>*://www.youtube.com/watch*</string>
 			</array>
 		</dict>
 	</dict>
