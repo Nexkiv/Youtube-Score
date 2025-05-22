@@ -25,7 +25,7 @@
             "matches": [ "*://example.com/*" ]
         },
         {
-            "matches": [ "<all_urls>" ],
+            "matches": [ "*://www.youtube.com/watch*" ],
             "js": [ "./score.js" ],
             "run_at": "document_start"
         }

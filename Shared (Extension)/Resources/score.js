@@ -28,6 +28,8 @@ if (window.top === window) {
 //        referenceNode.appendChild(scoreElement);
 //    });
     
+//    let previousElement = document.getElementById("language-score");
+    
     referenceNode = document.getElementById("owner");
     referenceNode.appendChild(scoreElement);
 }
